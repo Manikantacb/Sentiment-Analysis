@@ -1,5 +1,5 @@
 # Sentiment-Analysis
-
+This assignment involves fetching data from https://t.me/CryptoComOfficial and analyzing the sentiment of the messages between May 1, 2021 and May 15, 2021
 1. Github repo created.
 2. Data exported from Telegram https://t.me/CryptoComOfficial from May 1 to
 and including May 15, 2021.
