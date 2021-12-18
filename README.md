@@ -10,17 +10,17 @@ Data can be found in results.json file
 
 # Summary
 
-Step 1: Import libraries
-Step 2: Read Data from json file
-Step 3: Data Preprocessing.
+1. Import libraries
+2. Read Data from json file
+3. Data Preprocessing.
 The Preprocessing steps involve the following:
-a.Cleaning the text: Removing unwanted characters.
-b.Tokenization: Tokenization is done using nltk tokenizer
-b.Enrichment-POS tagging: Parts of Speech (POS) tagging is a process of converting each token into a tuple having the form (word, tag). POS tagging essential to preserve the context of the word and is essential for Lemmatization.
-c.Stopwords removal: These words are removed as they do not give any useful information.
-d.Lemmatization: Obtaining the stem words.
+a. Cleaning the text: Removing unwanted characters.
+b. Tokenization: Tokenization is done using nltk tokenizer
+b. Enrichment-POS tagging: Parts of Speech (POS) tagging is a process of converting each token into a tuple having the form (word, tag). POS tagging essential to preserve the context of the word and is essential for Lemmatization.
+c. Stopwords removal: These words are removed as they do not give any useful information.
+d. Lemmatization: Obtaining the stem words.
 
-Step 4: Sentiment Analysis using TextBlob
+4.Sentiment Analysis using TextBlob
 TextBlob is a python library used for processing textual data. It is used for sentiment analysis, part-of-speech tagging.
 
 The two measures that are used to analyze the sentiment are:
